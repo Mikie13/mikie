@@ -1,0 +1,163 @@
+/* General Body Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(135deg, #87ceeb 20%, #ff69b4 80%);
+    color: #333;
+}
+
+/* Header */
+h1 {
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000;
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Add New Student Button */
+.btn {
+    background-color: #ff69b4; /* Pink for visibility */
+    color: white;
+    border: 2px solid #ff69b4;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #ff69b4;
+    border-color: #ff69b4;
+}
+
+/* Edit Button */
+.edit-btn {
+    background-color: #87ceeb; /* Sky Blue for differentiation */
+    color: white;
+    border: 2px solid #87ceeb;
+}
+
+.edit-btn:hover {
+    background-color: white;
+    color: #87ceeb;
+    border-color: #87ceeb;
+}
+
+/* Delete Button */
+.delete-btn {
+    background-color: #ff0000; /* Bright Red for visibility */
+    color: white;
+    border: 2px solid #ff0000;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.delete-btn:hover {
+    background-color: white;
+    color: #ff0000;
+    border-color: #ff0000;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+thead {
+    background-color: #87ceeb;
+    color: white;
+}
+
+thead th {
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+tbody tr {
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f5faff;
+}
+
+tbody tr:hover {
+    background-color: #ff69b4;
+    color: white;
+    transform: translateY(-2px);
+}
+
+td {
+    padding: 12px 15px;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* Form Styling */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+form input, 
+form button {
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #87ceeb;
+    font-size: 14px;
+}
+
+form input {
+    background-color: #f8f9fc;
+}
+
+form button {
+    background-color: #87ceeb;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #ff69b4;
+    color: white;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #87ceeb;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+}
